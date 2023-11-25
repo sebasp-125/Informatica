@@ -49,11 +49,3 @@ def move_piece(self, row, col):
         self.board[row][col] = piece
         self.selected_piece = None
         self.refresh_board()
-#Cambio3 
-chess_game = ChessGame()
-chess_game.mainloop()
-
-
-    
-chess_game = ChessGame()
-chess_game.mainloop()
